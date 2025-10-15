@@ -47,5 +47,11 @@
     <ClInclude Include="CShape.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollision.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

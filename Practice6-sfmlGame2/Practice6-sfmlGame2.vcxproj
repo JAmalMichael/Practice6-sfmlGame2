@@ -134,6 +134,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CCollision.h" />
+    <ClInclude Include="CInput.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="CShape.h" />
     <ClInclude Include="CTransform.h" />
