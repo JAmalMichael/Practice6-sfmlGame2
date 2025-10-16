@@ -136,7 +136,9 @@
   <ItemGroup>
     <ClInclude Include="CCollision.h" />
     <ClInclude Include="CInput.h" />
+    <ClInclude Include="CLifespan.h" />
     <ClInclude Include="Component.h" />
+    <ClInclude Include="ConfigReader.h" />
     <ClInclude Include="CShape.h" />
     <ClInclude Include="CTransform.h" />
     <ClInclude Include="Entity.h" />
