@@ -13,22 +13,22 @@ class ConfigReader {
 	vector<string> lines;
 
 public:
-	bool load(string & filename)
+	bool load(const string& filename)
 	{
 		ifstream file(filename);
 		if (!file.is_open())
 		{
-			return false;
 			cout << " Filename error" << endl;
+			return false;
 		}
 		string line;
 
 		while (getline(file, line))
 		{
 			if (!line.empty()) lines.push_back(line);
-			return true;
-		};
 		}
+		return true;
+	}
 		
 		const string& getLine(size_t index) const {
 		return lines.at(index);

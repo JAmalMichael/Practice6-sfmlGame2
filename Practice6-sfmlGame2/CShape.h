@@ -5,10 +5,11 @@
 #include <SFML/Graphics.hpp>
 
 
-class Cshape : public Component 
+class CShape : public Component 
 {
+public:
 	sf::CircleShape circle;
-	Cshape( float radius, int points, const sf::Color & fill, const sf::Color outline, float thickness)
+	CShape( float radius, int points, const sf::Color & fill, const sf::Color outline, float thickness)
 	{
 		circle.setRadius(radius);
 		circle.setPointCount(points);

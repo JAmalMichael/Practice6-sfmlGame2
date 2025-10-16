@@ -42,7 +42,7 @@ public:
 	template<typename T>
 	T& getComponent()
 	{
-		return static_pointer_cast<T>(m_components.at(typeid(T)));
+		return *static_pointer_cast<T>(m_components.at(typeid(T)));
 	}
 
 
