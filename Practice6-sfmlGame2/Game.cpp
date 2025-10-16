@@ -75,7 +75,7 @@ void Game::update() {
 	auto& input = player->getComponent<CInput>();
 
 
-	Vec2 dir;
+	Vec2 dir{};
 	if (input.up) dir.y -= 1;
 	if (input.down) dir.y += 1;
 	if (input.left) dir.x -= 1;

@@ -35,7 +35,7 @@ public:
 	template<typename T>
 	bool hasComponent() const
 	{
-		m_components.find(typeid(T)) != m_components.end();
+		return m_components.find(typeid(T)) != m_components.end();
 	}
 
 	//a getter function referencing the m_component array
