@@ -9,7 +9,7 @@
 
 using namespace std;
 
-class CongReader {
+class ConfigReader {
 	vector<string> lines;
 
 public:

@@ -59,5 +59,8 @@
     <ClInclude Include="ConfigReader.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
