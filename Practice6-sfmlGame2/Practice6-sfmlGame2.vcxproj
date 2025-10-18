@@ -140,6 +140,7 @@
     <ClInclude Include="CLifespan.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="ConfigReader.h" />
+    <ClInclude Include="CScore.h" />
     <ClInclude Include="CShape.h" />
     <ClInclude Include="CTransform.h" />
     <ClInclude Include="Entity.h" />

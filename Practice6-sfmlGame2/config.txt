@@ -1,5 +1,5 @@
 1280 720 MyAwesome2DGame
 arial.ttf
-5.0 30
+1.0 30
 12 5 60
 3 7 120 25

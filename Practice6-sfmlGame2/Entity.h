@@ -10,11 +10,8 @@ using namespace std;
 
 class Entity 
 {
-	//positive number of ids
 	size_t m_id; 
-	//alive or dead
-	bool m_active = true; 
-	//works like an hash table,key-value pair, type specific dynamic 
+	bool m_active = true;  
 	unordered_map<type_index, shared_ptr<Component>> m_components; 
 
 public:

@@ -25,3 +25,8 @@ const vector<shared_ptr<Entity>>& EntityManager::getEntity() const
 {
 	return m_entity;
 }
+
+const vector<shared_ptr<Entity>>& EntityManager::getEntity(const std::string& tag)
+{
+	return m_entityMap[tag];
+}
